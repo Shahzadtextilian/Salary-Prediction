@@ -27,4 +27,4 @@ if st.button("Predict Salary"):
     # Convert NumPy array to a Python float
     salary = prediction.item()
 
-    st.success(f"Predicted Salary = ${salary:,.2f}")
+    st.success(f"Predicted Salary = ${salary:,.2f}K")
