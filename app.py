@@ -4,7 +4,7 @@ import numpy as np
 
 # Load model
 
-with open("salary_model_gd.pkl", "rb") as file:
+with open("salary_model_sklearn.pkl", "rb") as file:
     model = pickle.load(file)
 
 st.title("Salary Prediction App")
